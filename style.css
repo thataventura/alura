@@ -10,4 +10,42 @@ header{
     padding: 20px;
     color: white;
     font-size: 35px;
+
+}
+.chamada{
+    background: blue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.chamada-texto{
+    margin-right: 5%;
+
+}
+h1{
+    font-size: 35px;
+    
+}
+.categoria{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid black;
 }
